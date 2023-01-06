@@ -8,3 +8,60 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Arial, sans-serif;
 }
+.header {
+  background-color: #F3F4F6;
+  height: 768px;
+  position: relative;
+  z-index: -1;
+}
+.logo,
+ .header__h1,
+  .p,
+  .header__ballon,
+  .header__circle-small,
+  .header__circle-big {
+  position: absolute;
+}
+.header__logo {
+  top: 47.89px;
+  left: 64px;
+}
+.h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 96px;
+  color: #000000;
+}
+.header__h1 {
+  margin: 192px 0 64px 36%;
+  width: 768px;
+}
+.p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #000000;
+}
+.header__p {
+  width: 500px;
+  margin: 448px 0 0 37%;
+}
+.header__ballon {
+  top: 132px;
+  left: 64px;
+}
+.header__circle-small {
+  top: 280px;
+  left: 64px;
+  z-index: -2;
+}
+.header__circle-big {
+  bottom: 170px;
+  left: 988px;
+  z-index: -2;
+}
+.redlogo {
+  fill:#EF4444;
+}
