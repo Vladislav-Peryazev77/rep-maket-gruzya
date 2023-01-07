@@ -17,20 +17,7 @@
   z-index: -1;
   overflow: hidden;
 }
-.logo,
-  /* .header__description,
-  .header__title, */
-  .header__ballon,
-  .header__circle,
-  .header__circle_size_small,
-  .header__circle_size_big,
-  .main__arrow-down,
-  .founder__title,
-  .founder__subtitle,
-  .founder__link,
-  .founder__arrow-right,
-  .founder__photo,
-  .founder__circle {
+.logo {
   position: absolute;
 }
 .header__logo {
@@ -60,10 +47,12 @@
 .header__ballon {
   top: 132px;
   left: 64px;
+  position: absolute;
 }
-.header__circle, .main__circle, .founder__circle{
+.header__circle {
   border-radius: 50%;
   background-color: #EF4444;
+  position: absolute;
 }
 .header__circle_size_small {
   width: 480px;
@@ -71,6 +60,7 @@
   top: 280px;
   left: 64px;
   z-index: -2;
+  position: absolute;
 }
 .header__circle_size_big {
   width: 1196px;
@@ -78,6 +68,7 @@
   bottom: 170px;
   left: 960px;
   z-index: -2;
+  position: absolute;
 }
 .header__container {
   margin-left: 36%;
