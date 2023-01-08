@@ -8,3 +8,342 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Arial, sans-serif;
 }
+.header {
+  background-color: #F3F4F6;
+  /* height: 100vh; */
+  min-height: 600px;
+  max-height: 768px;
+  position: relative;
+  z-index: -1;
+  overflow: hidden;
+}
+.logo {
+  position: absolute;
+}
+.header__logo {
+  top: 48px;
+  left: 64px;
+  fill: #EF4444;
+}
+.header__title {
+  /* margin: 0 0 64px 36%; */
+  margin-bottom: 64px;
+  /* max-width: 768px; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 96px;
+  color: #000000;
+}
+.header__description {
+  /* max-width: 500px; */
+  /* margin: 0 0 0 37%; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #000000;
+}
+.header__ballon {
+  top: 132px;
+  left: 64px;
+  position: absolute;
+}
+.header__circle {
+  border-radius: 50%;
+  background-color: #EF4444;
+  position: absolute;
+}
+.header__circle_size_small {
+  width: 480px;
+  height: 480px;
+  top: 280px;
+  left: 64px;
+  z-index: -2;
+  position: absolute;
+}
+.header__circle_size_big {
+  width: 1196px;
+  height: 1196px;
+  bottom: 170px;
+  left: 960px;
+  z-index: -2;
+  position: absolute;
+}
+.header__container {
+  margin-left: 36%;
+  display: flex;
+  align-content: center;
+  height: 768px;
+  max-width: 500px;
+  flex-wrap: wrap;
+}
+.facts {
+  background-color: #fff;
+  height: 756px;
+  position: relative;
+}
+.facts__subtitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #EF4444;
+  margin: 100px 0 12px 232px;
+  position: absolute;
+}
+.facts__title {
+  margin: 136px 0 0 228px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 72px;
+  color: #000000;
+  position: absolute;
+}
+.facts__row_number1 {
+  margin: 272px 0 0 228px;
+  position: absolute;
+}
+.facts__row_number2 {
+  margin: 464px 228px;
+  position: absolute;
+}
+
+.facts__items {
+  /* margin-bottom: 48px; */
+  max-width: 1144px;
+  max-height: 144px;
+  display: flex;
+}
+.items__item {
+  max-width: 250px;
+  margin-right: 48px;
+}
+.item__title {
+  margin: 0 0 12px 0;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+.item__description {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+.last-child {
+  margin-right: 0;
+}
+.facts__arrow-down {
+  bottom: 744px;
+  left: 1182px;
+  position: absolute;
+}
+.founder {
+  background-color: #F3F4F6;
+  height: 600px;
+  position: relative;
+}
+.founder__title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 72px;
+  text-align: right;
+  color: #000000;
+  margin: 160px 0 0 170px;
+  max-width: 536px;
+  position: absolute;
+}
+.founder__subtitle {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+  text-align: right;
+  color: #000000;
+  margin: 328px 0 0 319px;
+  max-width: 388px;
+  max-height: 72px;
+  position: absolute;
+}
+.founder__link {
+  max-width: 138px;
+  max-height: 36px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+  text-align: right;
+  text-decoration-line: underline;
+  color: #EF4444;
+  margin: 448px 0 0 529px;
+  position: absolute;
+}
+.founder__arrow-right {
+  top: 460px;
+  left: 679px;
+  position: absolute;
+}
+.founder__photo {
+  bottom: 0;
+  right: 264px;
+  z-index: 1;
+  position: absolute;
+}
+.founder__circle {
+  border-radius: 50%;
+  background-color: #EF4444;
+  width: 640px;
+  height: 640px;
+  bottom: -200px;
+  right: 100px;
+  /* overflow: hidden; */
+  position: absolute;
+}
+.top-10 {
+  height: 920px;
+  background-color: #111827;
+  position: relative;
+  z-index: 0;
+}
+.top-10__title {
+  position: absolute;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 72px;
+  text-align: center;
+  color: #F9FAFB;
+  margin: 100px 0 0 555px;
+  max-width: 490px;
+}
+.top-10__subtitle {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #F9FAFB;
+  margin: 268px 0 64px 530px;
+  position: absolute;
+}
+.top-10__square {
+  width: 420px;
+  height: 420px;
+  position: absolute;
+  top: calc(50% + 80px);
+  left: 37%;
+  transform: rotate(-45deg);
+  background-color: #10B981;
+  z-index: -1;
+}
+.top-10__places {
+  width: 1192px;
+  height: 408px;
+  display: flex;
+  /* flex-direction: row; */
+  /* justify-content: space-between;
+  align-content: space-between; */
+  position: absolute;
+  margin: 364px 0 0 208px;
+  flex-wrap: wrap;
+}
+.places__place {
+  width: 200px;
+  height: 180px;
+}
+.place__margin_bottom {
+  margin-bottom: 48px;
+}
+.place__margin_right {
+  margin-right: 48px;
+}
+.place__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #F9FAFB;
+  max-height: 72px;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+.place__description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #F9FAFB;
+  margin: 0;
+}
+.footer {
+  height: 346px;
+  background-color: #9CA3AF;
+  position: relative;
+}
+.footer__logo {
+  fill: #FFFFFF;
+  position: absolute;
+  top: 48px;
+  left: 64px;
+}
+.footer__description {
+  max-width: 640px;
+  max-height: 72px;
+  position: absolute;
+  margin: 120px 0 0 64px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.footer__about-us {
+  max-width: 122px;
+  max-height: 144px;
+  position: absolute;
+  margin: 48px 0 0 1156px;
+}
+.about-us__title, .info__title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #F9FAFB;
+  margin:0 0 24px 0;
+}
+.about-us__link, .info__link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* text-decoration-line: underline; */
+  color: #F9FAFB;
+  max-height: 24px;
+  display: block;
+}
+.about-us__link_margin-bottom, .info__link_margin-bottom {
+  margin: 0 0 12px 0;
+}
+.footer__info {
+  max-height: 144px;
+  max-width: 204px;
+  position: absolute;
+  margin: 48px 0 0 1332px;
+}
+.divider {
+  width: 1472px;
+  height: 2px;
+  position: absolute;
+  top: 256px;
+  left: 64px;
+  background-color:rgba(249, 250, 251, 0.5);
+}
+.copyright {
+  position: absolute;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #F9FAFB;
+  margin: 282px 0 0 62px;
+}
+
+
+
