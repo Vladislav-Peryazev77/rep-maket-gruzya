@@ -142,6 +142,139 @@
   left: 1182px;
   position: absolute;
 }
+.founder {
+  background-color: #F3F4F6;
+  height: 600px;
+  position: relative;
+}
+.founder__title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 72px;
+  text-align: right;
+  color: #000000;
+  margin: 160px 0 0 170px;
+  max-width: 536px;
+  position: absolute;
+}
+.founder__subtitle {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+  text-align: right;
+  color: #000000;
+  margin: 328px 0 0 319px;
+  max-width: 388px;
+  max-height: 72px;
+  position: absolute;
+}
+.founder__link {
+  max-width: 138px;
+  max-height: 36px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+  text-align: right;
+  text-decoration-line: underline;
+  color: #EF4444;
+  margin: 448px 0 0 529px;
+  position: absolute;
+}
+.founder__arrow-right {
+  top: 460px;
+  left: 679px;
+  position: absolute;
+}
+.founder__photo {
+  bottom: 0;
+  right: 264px;
+  z-index: 1;
+  position: absolute;
+}
+.founder__circle {
+  border-radius: 50%;
+  background-color: #EF4444;
+  width: 640px;
+  height: 640px;
+  bottom: -200px;
+  right: 100px;
+  /* overflow: hidden; */
+  position: absolute;
+}
+.top-10 {
+  height: 920px;
+  background-color: #111827;
+  position: relative;
+  z-index: 0;
+}
+.top-10__title {
+  position: absolute;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 72px;
+  text-align: center;
+  color: #F9FAFB;
+  margin: 100px 0 0 555px;
+  max-width: 490px;
+}
+.top-10__subtitle {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #F9FAFB;
+  margin: 268px 0 64px 530px;
+  position: absolute;
+}
+.top-10__square {
+  width: 420px;
+  height: 420px;
+  position: absolute;
+  top: calc(50% + 80px);
+  left: 37%;
+  transform: rotate(-45deg);
+  background-color: #10B981;
+  z-index: -1;
+}
+.top-10__places {
+  width: 1192px;
+  height: 408px;
+  display: flex;
+  /* flex-direction: row; */
+  /* justify-content: space-between;
+  align-content: space-between; */
+  position: absolute;
+  margin: 364px 0 0 208px;
+  flex-wrap: wrap;
+}
+.places__place {
+  width: 200px;
+  height: 180px;
+}
+.place__margin_bottom {
+  margin-bottom: 48px;
+}
+.place__margin_right {
+  margin-right: 48px;
+}
+.place__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #F9FAFB;
+  max-height: 72px;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+.place__description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #F9FAFB;
+  margin: 0;
+}
 
 
 
