@@ -275,7 +275,75 @@
   color: #F9FAFB;
   margin: 0;
 }
-
+.footer {
+  height: 346px;
+  background-color: #9CA3AF;
+  position: relative;
+}
+.footer__logo {
+  fill: #FFFFFF;
+  position: absolute;
+  top: 48px;
+  left: 64px;
+}
+.footer__description {
+  max-width: 640px;
+  max-height: 72px;
+  position: absolute;
+  margin: 120px 0 0 64px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.footer__about-us {
+  max-width: 122px;
+  max-height: 144px;
+  position: absolute;
+  margin: 48px 0 0 1156px;
+}
+.about-us__title, .info__title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #F9FAFB;
+  margin:0 0 24px 0;
+}
+.about-us__link, .info__link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* text-decoration-line: underline; */
+  color: #F9FAFB;
+  max-height: 24px;
+  display: block;
+}
+.about-us__link_margin-bottom, .info__link_margin-bottom {
+  margin: 0 0 12px 0;
+}
+.footer__info {
+  max-height: 144px;
+  max-width: 204px;
+  position: absolute;
+  margin: 48px 0 0 1332px;
+}
+.divider {
+  width: 1472px;
+  height: 2px;
+  position: absolute;
+  top: 256px;
+  left: 64px;
+  background-color:rgba(249, 250, 251, 0.5);
+}
+.copyright {
+  position: absolute;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #F9FAFB;
+  margin: 282px 0 0 62px;
+}
 
 
 
