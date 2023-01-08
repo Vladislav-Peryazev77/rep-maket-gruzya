@@ -8,3 +8,141 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Arial, sans-serif;
 }
+.header {
+  background-color: #F3F4F6;
+  /* height: 100vh; */
+  min-height: 600px;
+  max-height: 768px;
+  position: relative;
+  z-index: -1;
+  overflow: hidden;
+}
+.logo {
+  position: absolute;
+}
+.header__logo {
+  top: 48px;
+  left: 64px;
+  fill: #EF4444;
+}
+.header__title {
+  /* margin: 0 0 64px 36%; */
+  margin-bottom: 64px;
+  /* max-width: 768px; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 96px;
+  color: #000000;
+}
+.header__description {
+  /* max-width: 500px; */
+  /* margin: 0 0 0 37%; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #000000;
+}
+.header__ballon {
+  top: 132px;
+  left: 64px;
+  position: absolute;
+}
+.header__circle {
+  border-radius: 50%;
+  background-color: #EF4444;
+  position: absolute;
+}
+.header__circle_size_small {
+  width: 480px;
+  height: 480px;
+  top: 280px;
+  left: 64px;
+  z-index: -2;
+  position: absolute;
+}
+.header__circle_size_big {
+  width: 1196px;
+  height: 1196px;
+  bottom: 170px;
+  left: 960px;
+  z-index: -2;
+  position: absolute;
+}
+.header__container {
+  margin-left: 36%;
+  display: flex;
+  align-content: center;
+  height: 768px;
+  max-width: 500px;
+  flex-wrap: wrap;
+}
+.facts {
+  background-color: #fff;
+  height: 756px;
+  position: relative;
+}
+.facts__subtitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #EF4444;
+  margin: 100px 0 12px 232px;
+  position: absolute;
+}
+.facts__title {
+  margin: 136px 0 0 228px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 72px;
+  color: #000000;
+  position: absolute;
+}
+.facts__row_number1 {
+  margin: 272px 0 0 228px;
+  position: absolute;
+}
+.facts__row_number2 {
+  margin: 464px 228px;
+  position: absolute;
+}
+
+.facts__items {
+  /* margin-bottom: 48px; */
+  max-width: 1144px;
+  max-height: 144px;
+  display: flex;
+}
+.items__item {
+  max-width: 250px;
+  margin-right: 48px;
+}
+.item__title {
+  margin: 0 0 12px 0;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+.item__description {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+.last-child {
+  margin-right: 0;
+}
+.facts__arrow-down {
+  bottom: 744px;
+  left: 1182px;
+  position: absolute;
+}
+
+
+
+
